@@ -1,6 +1,6 @@
 package Tasks.TestNG_MorningClass.Day01;
 
-import Tests.utilities.TestBase;
+import Tasks.utilities.TestBase;
 import org.testng.annotations.Test;
 
 public class C09_DependsOnMethodTest extends TestBase {
