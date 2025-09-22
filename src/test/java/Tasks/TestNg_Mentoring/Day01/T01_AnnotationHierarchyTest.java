@@ -4,52 +4,52 @@ import org.testng.annotations.*;
 
 public class T01_AnnotationHierarchyTest {
     @BeforeSuite
-    void beforeSuite(){
+    void beforeSuite() {
         System.out.println("BeforeSuite");
     }
 
     @BeforeTest
-    void beforeTest(){
+    void beforeTest() {
         System.out.println("BeforeTest");
     }
 
     @BeforeClass
-    void beforeClass(){
+    void beforeClass() {
         System.out.println("BeforeClass");
     }
 
     @BeforeMethod
-    void beforeMethod(){
+    void beforeMethod() {
         System.out.println("BeforeMethod");
     }
 
     @Test
-    void test01(){
+    void test01() {
         System.out.println("test01");
     }
 
     @Test
-    void test02(){
+    void test02() {
         System.out.println("test02");
     }
 
     @AfterMethod
-    void afterMethod(){
+    void afterMethod() {
         System.out.println("AfterMethod");
     }
 
     @AfterClass
-    void afterClass(){
+    void afterClass() {
         System.out.println("AfterClass");
     }
 
     @AfterTest
-    void afterTest(){
+    void afterTest() {
         System.out.println("AfterTest");
     }
 
     @AfterSuite
-    void afterSuite(){
+    void afterSuite() {
         System.out.println("AfterSuite");
     }
 }

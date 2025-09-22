@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suit">
+
+    <test name="Group A Test ">
+        <groups>
+            <run>
+                <include name="A"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Tasks.TestNG_MorningClass.Day01.C07_Groups"></class>
+        </classes>
+    </test>
+
+    <test name="Group C Test">
+        <groups>
+            <run>
+                <include name="C"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Tasks.TestNG_MorningClass.Day01.C07_Groups"></class>
+        </classes>
+    </test>
+
+
+</suite>

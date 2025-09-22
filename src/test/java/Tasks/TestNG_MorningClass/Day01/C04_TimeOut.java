@@ -21,7 +21,8 @@ public class C04_TimeOut {
         System.out.println("Test 02");
     }
 
-    @Test(timeOut = 100)//ThreadTimeoutException
+    @Test(timeOut = 100)
+//ThreadTimeoutException
     void test03() throws InterruptedException {
         Thread.sleep(100);
         System.out.println("Test 03");

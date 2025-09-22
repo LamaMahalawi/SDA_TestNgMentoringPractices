@@ -12,67 +12,67 @@ public class C01_Annotations {
  */
 
     @BeforeSuite
-    void beforeSuite(){
+    void beforeSuite() {
         System.out.println("@BeforeSuite");
     }
 
     @AfterSuite
-    void afterSuit(){
+    void afterSuit() {
         System.out.println("@AfterSuite");
     }
 
     @BeforeTest
-    void beforeTest(){
+    void beforeTest() {
         System.out.println("@BeforeTest");
     }
 
     @AfterTest
-    void afterTest(){
+    void afterTest() {
         System.out.println("@AfterTest");
     }
 
     @BeforeClass
-    void beforeClass(){
+    void beforeClass() {
         System.out.println("@BeforeClass");
     }
 
     @AfterClass
-    void afterClass(){
+    void afterClass() {
         System.out.println("@AfterClass");
     }
 
     @BeforeMethod
-    void beforeMethod(){
+    void beforeMethod() {
         System.out.println("@BeforeMethod");
     }
 
     @AfterMethod
-    void afterMethod(){
+    void afterMethod() {
         System.out.println("@AfterMethod");
     }
 
     @Test
-    void test01(){
+    void test01() {
         System.out.println("Test 01");
     }
 
     @Test
-    void test02(){
+    void test02() {
         System.out.println("Test 02");
     }
 
     @Test
-    void test03(){
+    void test03() {
         System.out.println("Test 03");
     }
 
     @Test
-    void test04(){
+    void test04() {
         System.out.println("Test 04");
     }
 
     @Test
-    void test05(){
+    void test05() {
         System.out.println("Test 05");
     }
 

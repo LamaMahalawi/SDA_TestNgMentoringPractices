@@ -34,12 +34,12 @@ public class C10_DependsOnGroups {
     }
 
     @Test(dependsOnGroups = "3")
-    void dependsOnGroup3(){
+    void dependsOnGroup3() {
         System.out.println("Depends On Group 3");
     }
 
     @Test(dependsOnGroups = "1")
-    void dependsOnGroup1(){
+    void dependsOnGroup1() {
         System.out.println("Depends On Group 1");
     }
 

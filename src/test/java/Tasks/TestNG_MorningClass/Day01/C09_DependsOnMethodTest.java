@@ -21,7 +21,7 @@ public class C09_DependsOnMethodTest extends TestBase {
         driver.get("https://google.com");
     }
 
-    @Test(dependsOnMethods = {"googleTest","facebookTest"})
+    @Test(dependsOnMethods = {"googleTest", "facebookTest"})
     void amazonTest() {
         driver.get("https://amazon.com");
     }

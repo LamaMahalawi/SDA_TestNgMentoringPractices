@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 public class C07_Groups {
-      /*
+     /*
     Groups different test cases of same functionality
     Enables selective test execution
     Covered later in XML files
@@ -26,9 +26,9 @@ public class C07_Groups {
         System.out.println("Test 03");
     }
 
-    @Test(groups = "B")
+    @Test(groups = {"B", "A"})
     void test04() {
-        System.out.println("Test 04 - B");
+        System.out.println("Test 04 - A, B");
     }
 
     @Test(groups = "A")

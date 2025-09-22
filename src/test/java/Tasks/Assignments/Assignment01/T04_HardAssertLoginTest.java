@@ -52,7 +52,7 @@ public class T04_HardAssertLoginTest {
         // - page contains text "Employee Table"
         String pageSource = driver.getPageSource();
         Assert.assertTrue(pageSource.contains("Employee Table"), "Page does NOT contain 'Employee Table'");
-        System.out.println("Page contains 'Employee Table'" );
+        System.out.println("Page contains 'Employee Table'");
     }
 
     @AfterClass

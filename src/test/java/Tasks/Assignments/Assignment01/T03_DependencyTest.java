@@ -33,7 +33,7 @@ public class T03_DependencyTest {
     }
 
     @AfterClass
-    void setDown(){
+    void setDown() {
         driver.close();
     }
 }
