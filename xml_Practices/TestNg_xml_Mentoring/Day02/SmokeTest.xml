@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="group tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Tasks.TestNg_Mentoring.Day02.T02_AttributePracticeTest2">
+
+            </class>
+            <class name="Tasks.TestNg_Mentoring.Day02.T02_AttributePracticeTest3">
+
+            </class>
+        </classes>
+    </test>
+</suite>
