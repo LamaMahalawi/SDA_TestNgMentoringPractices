@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="Parameterizing 1">
+        <parameter name="username" value="TomHawk_XML"></parameter>
+        <parameter name="password" value="Tom.123"></parameter>
+        <parameter name="comment" value="This comment is coming from XML file!"></parameter>
+        <classes>
+            <class name="Tasks.TestNG_MorningClass.Day02.C13_Parameters"> </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Parameterizing 2">
+        <parameter name="username" value="MaryStar_XML"></parameter>
+        <parameter name="password" value="Mary.123"></parameter>
+        <parameter name="comment" value="This comment is coming from Mary using XML file!!!"></parameter>
+        <classes>
+            <class name="Tasks.TestNG_MorningClass.Day02.C13_Parameters"> </class>
+        </classes>
+    </test>
+
+
+</suite>
