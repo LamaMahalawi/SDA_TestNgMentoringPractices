@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group Execution Suite">
+
+    <!-- Smoke tests -->
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tasks.Assignments.Assignment02.T02_GroupBasedTestExecution"/>
+        </classes>
+    </test>
+
+    <!-- Regression tests -->
+    <test name="RegressionTests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tasks.Assignments.Assignment02.T02_GroupBasedTestExecution"/>
+        </classes>
+    </test>
+
+    <!-- API tests -->
+    <test name="ApiTests">
+        <groups>
+            <run>
+                <include name="api"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tasks.Assignments.Assignment02.T02_GroupBasedTestExecution"/>
+        </classes>
+    </test>
+
+</suite>
