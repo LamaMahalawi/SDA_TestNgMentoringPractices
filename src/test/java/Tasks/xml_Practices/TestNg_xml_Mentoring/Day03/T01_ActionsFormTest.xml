@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ActionsForm CrossBrowser Suite">
+
+    <test name="Test Firefox" verbose="2" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="name" value="Lama"/>
+        <parameter name="age" value="22"/>
+        <parameter name="department" value="it"/>
+        <parameter name="interest" value="design"/>
+        <parameter name="gender" value="female"/>
+        <classes>
+            <class name="Tasks.TestNg_Mentoring.Day03.T01_ActionsFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Edge" verbose="2" preserve-order="true">
+        <parameter name="browser" value="edge"/>
+        <parameter name="name" value="Sara"/>
+        <parameter name="age" value="25"/>
+        <parameter name="department" value="marketing"/>
+        <parameter name="interest" value="design"/>
+        <parameter name="gender" value="female"/>
+        <classes>
+            <class name="Tasks.TestNg_Mentoring.Day03.T01_ActionsFormTest"/>
+        </classes>
+    </test>
+
+</suite>

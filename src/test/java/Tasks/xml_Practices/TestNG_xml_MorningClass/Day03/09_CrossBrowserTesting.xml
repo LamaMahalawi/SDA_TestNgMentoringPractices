@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <!--    Test 1-->
+    <test verbose="2" preserve-order="true" name="Chrome CrossBrowserTesting">
+        <!--        Since I don't use any parameter, this test will be done by Chrome Browser-->
+        <classes>
+            <class name="Tasks.TestNG_MorningClass.Day03.C14_CrossBrowserTesting"> </class>
+        </classes>
+    </test>
+
+    <!--    Test 2-->
+    <test verbose="2" preserve-order="true" name="FireFox CrossBrowserTesting">
+        <parameter name="browser" value="Firefox"> </parameter>
+        <classes>
+            <class name="Tasks.TestNG_MorningClass.Day03.C14_CrossBrowserTesting"> </class>
+        </classes>
+    </test>
+    <!--    Test 3-->
+    <test verbose="2" preserve-order="true" name="Edge CrossBrowserTesting">
+        <parameter name="browser" value="Edge"> </parameter>
+        <classes>
+            <class name="Tasks.TestNG_MorningClass.Day03.C14_CrossBrowserTesting"> </class>
+        </classes>
+    </test>
+
+</suite>
